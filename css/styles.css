@@ -2,6 +2,7 @@ body{
 	color: #626262;
 	font-family: "Playfair Display";
 	font-weight: 400;
+
 }
 .nav{
 	display: flex;
@@ -12,6 +13,7 @@ body{
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 0;
+	margin: 75px auto 100px auto;
 	justify-content: center;
 }
 .nav-link{
@@ -31,6 +33,8 @@ body{
 	flex-wrap: wrap;
 	list-style: none;
 	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 .item{
 	text-transform: uppercase;
@@ -38,7 +42,7 @@ body{
 	color: #b4ad9e;
 	font-family: "Ubuntu";
 	font-weight: 300;
-	margin: 0;
+	margin: 14 0;
 }
 .description{
 	margin: 0px;
@@ -60,8 +64,24 @@ body{
 .post{
 	width: 420px;
 	margin-right: 60px;
+	margin-bottom: 140px;
 	box-sizing: border-box;
 }
 .post:nth-child(2n){
 	margin-right: 0;
+}
+
+
+.button{
+	display: flex;
+ 	justify-content: center;
+ 	margin-top: 55px;
+ 	width: 165px;
+ 	height: 60px;
+ 	border: solid 1px #626262;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	font-size: 20px;
+ 	line-height: 24px;
+ 	font-weight: 400;
 }
